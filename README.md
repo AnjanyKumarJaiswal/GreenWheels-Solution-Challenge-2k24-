@@ -18,4 +18,4 @@ JavaScript |  ![cloud](https://github.com/AnjanyKumarJaiswal/Sustainable-transpo
 Google-Cloud
 
 #### Team Members 
-Anjany Kumar Jaiswal | Sachin Prasanth | Arnav Ghosh | Arul Kumar P 
+Anjany Kumar Jaiswal | Sachin Prasanth | Arnav Ghosh | Arul Kumaran P 
