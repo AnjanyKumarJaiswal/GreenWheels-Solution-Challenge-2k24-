@@ -9,7 +9,8 @@ So me and my team came up with a solution for this particular problem to solve i
 
 #### Tech Stack 
 ![Angularjs](https://github.com/AnjanyKumarJaiswal/Sustainable-transport-Solution-Challenge-2k24-/assets/136046942/f8c8a54d-bf27-4346-aacb-ea0201bae3fb)
- AngularJs | Tensorflow | MongoDB | HTML-CSS | JavaScript | Google-Cloud
+ AngularJs |![tensorflow](https://github.com/AnjanyKumarJaiswal/Sustainable-transport-Solution-Challenge-2k24-/assets/136046942/f1f3bc6e-c95c-46f2-8654-6baf39b61dba)
+ Tensorflow | MongoDB | HTML-CSS | JavaScript | Google-Cloud
 
 #### Team Members 
 Anjany Kumar Jaiswal | Sachin Prasanth | Arnav Ghosh | Arul Kumar P 
