@@ -8,7 +8,8 @@ Solution:
 So me and my team came up with a solution for this particular problem to solve it that we would create an Web-App which would help the country to wisely suggest their people country to choose less Carbon-Emissions free vehicles from each Car-Company there are total of 3 types of vehicles present Petrol , Diesel and Electric among these from our case study and research we found that in most parts of the Globe many countries like in South-Africa , India , Austraila and etc still doesnt have EV's and have a large amount of Carbon Emissions vehicles which is harmful to environment 
 
 #### Tech Stack 
-AngularJs | Tensorflow | MongoDB | HTML-CSS | JavaScript | Google-Cloud
+![Angularjs](https://github.com/AnjanyKumarJaiswal/Sustainable-transport-Solution-Challenge-2k24-/assets/136046942/f8c8a54d-bf27-4346-aacb-ea0201bae3fb)
+ AngularJs | Tensorflow | MongoDB | HTML-CSS | JavaScript | Google-Cloud
 
 #### Team Members 
 Anjany Kumar Jaiswal | Sachin Prasanth | Arnav Ghosh | Arul Kumar P 
