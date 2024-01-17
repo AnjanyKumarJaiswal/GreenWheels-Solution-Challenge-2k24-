@@ -1,0 +1,168 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('highway.jpeg') center/cover no-repeat fixed;
+    color: #332;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.9);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.paragraph-container {
+    background-color: #fff; 
+    border-radius: 10px; 
+    padding: 20px;
+    margin: 20px 0; 
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+}
+
+footer {
+    background-color: #fff; 
+    color: #333; 
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .paragraph-container {
+        padding: 15px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+.footer p {
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+li{
+    list-style: none;
+}
+a{
+    color: black;
+}
+.navbar{
+    
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 24px;
+}
+.nav-menu{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+
+}
+.nav-branding{
+    text-align: end;
+    font-size: 2rem;
+
+}
+.nav-link{
+    transition: 0.7s ease;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.hambuger{
+    display: none;
+    cursor: pointer;
+
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 15px auto;
+    -webkit-transition: all 0.3s ease-in-out ;
+    transition: all 0.3s ease-in-out ;
+    background-color: white;
+}
+
+@media(max-width:768px){
+    .hambuger{
+        display: block;
+    }
+    .hambuger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hambuger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hambuger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #333;
+        transition: 0.3s;
+
+    }
+    .nav-item{
+        float: right;
+        margin: 16px 0;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+}
+
+
+
+
