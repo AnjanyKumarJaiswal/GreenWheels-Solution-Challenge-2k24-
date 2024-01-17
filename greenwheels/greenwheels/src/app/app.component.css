@@ -90,6 +90,7 @@ a{
     color: black;
 }
 .navbar{
+    
     min-height: 70px;
     display: flex;
     justify-content: space-between;
@@ -97,6 +98,7 @@ a{
     padding: 0 24px;
 }
 .nav-menu{
+    float: right;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,6 +106,7 @@ a{
 
 }
 .nav-branding{
+    text-align: end;
     font-size: 2rem;
 
 }
@@ -152,6 +155,7 @@ a{
 
     }
     .nav-item{
+        float: right;
         margin: 16px 0;
     }
     .nav-menu.active{
