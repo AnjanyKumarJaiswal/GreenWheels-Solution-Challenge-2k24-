@@ -8,18 +8,18 @@ body {
   
   .headercontainer {
     display: flex;
-    min-height: 100vh;
+    min-height: 10vh;
     flex-direction: column;
     
   }
   
   #mynav {
     background-color: #163020;
-    padding: 30px 150px;
+    padding: 30px 120px;
     display: flex;
     justify-content: flex-start; 
     align-items: center; 
-    width: 81%;
+    width: 84.10%;
     
   }
   
@@ -42,7 +42,8 @@ body {
   margin-left: -10px;
  }
  #mynav span:last-child{
-    margin-right: 46px;
+    margin-right: 55px;
+    float: right;
  }
   
   #mynav span:hover {
@@ -55,30 +56,56 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  .greenwheelsinfo,
+  .greenwheelsinfo{
+    display: flex;
+    text-align: end;
+    border-radius: 90px;
+    background-color: #8eb08e;
+    padding: 20px 100px;
+    margin: 20px 0;
+    min-height: 50vh;
+    gap: 20px;
+    flex-direction: column;
+  }
   .greenwheelsinfo1 {
     display: flex;
-    align-items: center;
-    border-radius: 30px;
-    background-color: #b6c4b6;
-    padding: 20px;
-    box-shadow: 0 0 10px #fff;
-    margin: 20px 0;
+    flex-direction: column;
+    text-align: end;
+    border-radius: 90px;
+    background-color: #839a83;
+    padding: 20px 150px;
+    margin: -10px 0;
+    min-height: 50vh;
+    gap: 20px;
+  }
+  h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  .greenwheelsinfo1 h1{
+    align-items: baseline;
   }
   
   .greenwheelsinfo p,
   .greenwheelsinfo1 p {
     margin-left: 0px;
+    font-weight: bold;
   }
   
   footer {
     font-size: 0.65cm;
     background-color: #163020;
-    color: #333;
     text-align: center;
-    padding: 20px;
-    width: 98%;
+    padding: 10px;
+    width: 98.5%;
     
     bottom: 0;
   }
+  footer b{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+  }
+  
+ 
   
