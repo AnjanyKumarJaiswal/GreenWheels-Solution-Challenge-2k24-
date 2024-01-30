@@ -98,7 +98,6 @@ body {
     text-align: center;
     padding: 10px;
     width: 98.5%;
-    
     bottom: 0;
   }
   footer b{
@@ -115,7 +114,7 @@ display: inline-block;
 
 }
 .dropbtn{
-  background-color: #333;
+  background-color: #7fbe87;
   color: #fff;
   width: 50%;
   padding: 20px 250px;

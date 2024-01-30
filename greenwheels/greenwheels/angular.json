@@ -66,6 +66,7 @@
             },
             "development": {
               "buildTarget": "greenwheels:build:development"
+              
             }
           },
           "defaultConfiguration": "development"
@@ -74,6 +75,7 @@
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
             "buildTarget": "greenwheels:build"
+            
           }
         },
         "test": {
