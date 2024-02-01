@@ -107,6 +107,16 @@ body {
     font-weight: lighter;
   }
 
+.active{
+  color: #333;
+}
+
+
+
+
+
+
+
   /*This is Vehicle Recommender css */
 .dropdown1{
   position: relative;

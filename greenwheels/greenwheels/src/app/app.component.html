@@ -10,16 +10,17 @@
 <body>
     <div class="headercontainer">
         <div id="mynav">
-            <a href="index.html" style="text-decoration: none;"><span  >GreenWheels</span></a>
-            <a href="vehicle.html" style="text-decoration: none;"><span >Vehicle Recommender</span></a>
-            <a href="CO2map.html" style="text-decoration: none;"><span >Emission Map</span></a>
-            <a href="about.html" style="text-decoration: none;"><span  >About</span></a>
+            <a href="#" routerLinkActive="active" style="text-decoration: none;"><span  >GreenWheels</span></a>
+            <a routerLink="/vehicle-recommender" routerLinkActive="active" style="text-decoration: none;"><span >Vehicle Recommender</span></a>
+            <a routerLink="/emission-map" routerLinkActive="active"  style="text-decoration: none;"><span >Emission Map</span></a>
+            <a href="#about" style="text-decoration: none;"><span  >About</span></a>
 
         </div>
     </div>
+    <router-outlet></router-outlet>
     <div class="greenwheelsinfo">
-        <h1 style="align-items: baseline; text-align:end; font-size:1.5cm;">GreenWheels</h1>
-        <p style="float: right;">
+        <h1 style="align-items: baseline; text-align:end; font-size:1.75cm;">GreenWheels</h1>
+        <p style="float: right; font-size:0.5cm">
             GreenWheels provide a complete up-to-date data for each individual to select less carbon emission vehicles
             upon our research data and practically tested data we can recommend one individual to choose a healthy eco-friendly vehicle that
             is not harmful to the environment. This Product is made to reduce the overall Carbon Emission led by the current vehicle our product gives a proper solution to it !! 
@@ -27,10 +28,11 @@
         </p>
     </div>
     <div class="greenwheelsinfo1">
-        <h1 style="align-items: baseline; text-align:center; font-size:1cm;">What is Carbon Emission?</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium esse commodi earum. Molestiae aliquid quidem in? Suscipit ducimus facilis, accusantium animi dicta ipsa nisi? Blanditiis sequi voluptates vel voluptate nulla?</p>
+        <h1 style="align-items: baseline; text-align:center; font-size:1.25cm;">What is Carbon Emission?</h1>
+        <p style="align-items: baseline; font-size:0.75">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium esse commodi earum. Molestiae aliquid quidem in? Suscipit ducimus facilis, accusantium animi dicta ipsa nisi? Blanditiis sequi voluptates vel voluptate nulla?</p>
     </div>
     <div></div>
+   
 
     <footer>
             <b>&copy; 2024-2025 GreenWheels. All rights reserved.</b>
