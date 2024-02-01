@@ -65,7 +65,9 @@
               "buildTarget": "greenwheels:build:production"
             },
             "development": {
-              "buildTarget": "greenwheels:build:development"
+              "buildTarget": "greenwheels:build:development",
+              "host": "localhost",
+              "port": 4201
               
             }
           },
