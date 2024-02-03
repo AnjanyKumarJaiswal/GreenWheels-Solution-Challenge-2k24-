@@ -111,6 +111,13 @@ body {
   color: #333;
 }
 
+img{
+  max-width: 128px;
+  max-height: 128px;
+  margin-bottom: -200px;
+  margin-left: 10px;
+}
+
 
 
 
