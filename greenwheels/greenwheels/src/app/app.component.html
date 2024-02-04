@@ -10,16 +10,18 @@
 <body>
     <div class="headercontainer">
         <div id="mynav">
+            
             <a href="#" routerLinkActive="active" style="text-decoration: none;"><span  >GreenWheels</span></a>
             <a routerLink="/vehicle-recommender" routerLinkActive="active" style="text-decoration: none;"><span >Vehicle Recommender</span></a>
             <a routerLink="/emission-map" routerLinkActive="active"  style="text-decoration: none;"><span >Emission Map</span></a>
             <a href="#about" style="text-decoration: none;"><span  >About</span></a>
-
+            
         </div>
     </div>
+    
     <router-outlet></router-outlet>
-    <div class="greenwheelsinfo">
-        <img src="electric-vehicle.png">
+    <div class="greenwheelsinfo" *ngIf="showGreenWheelsInfo">
+        <!-- <img src="./electric-vehicle.png"> -->
         <h1 style="align-items: baseline; text-align:end; font-size:1.75cm;">GreenWheels</h1>
         <p style="float: right; font-size:0.5cm">
             GreenWheels provide a complete up-to-date data for each individual to select less carbon emission vehicles
@@ -28,7 +30,7 @@
             Which is very benficial to our Environment. 
         </p>
     </div>
-    <div class="greenwheelsinfo1">
+    <div class="greenwheelsinfo1" *ngIf="showGreenWheelsInfo1">
         <h1 style="align-items: baseline; text-align:center; font-size:1.25cm;">What is Carbon Emission?</h1>
         <p style="align-items: baseline; font-size:0.75">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium esse commodi earum. Molestiae aliquid quidem in? Suscipit ducimus facilis, accusantium animi dicta ipsa nisi? Blanditiis sequi voluptates vel voluptate nulla?</p>
     </div>
