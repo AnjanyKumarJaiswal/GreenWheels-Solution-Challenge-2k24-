@@ -59,7 +59,7 @@ body {
   .greenwheelsinfo{
     display: flex;
     text-align: end;
-    border-radius: 90px;
+    border-radius: 150px;
     background-color: #8eb08e;
     padding: 20px 100px;
     margin: 20px 0;
@@ -71,7 +71,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: end;
-    border-radius: 90px;
+    border-radius: 150px;
     background-color: #839a83;
     padding: 20px 150px;
     margin: -10px 0;

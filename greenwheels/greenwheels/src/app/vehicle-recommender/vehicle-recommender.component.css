@@ -1,7 +1,46 @@
 .prompt{
     display: flex;
     flex-direction: column;
-    background-color: rgb(142, 223, 104);
-    padding: 120x 30px;
-    border: 70px;
+    min-height: 100vh;
+    max-width: 60%;
+    margin:  0 auto;
+    background-color: #738d73;
+    padding: 20px 10px;
+    border-radius: 55px;
+    box-shadow: black;
+    
+}
+.chatting{
+    display: flex;
+    min-height: 85vh;
+    margin: 0 auto;
+    max-width: 45%;
+    background-color: rgb(188, 215, 178);
+    padding: 60px 215px;
+    border-radius: 45px;
+
+}
+#chat-container{
+    margin-top: 550px;
+    
+    display: block;
+    flex-direction: row;
+    
+}
+#userinput{
+    border-radius: 100px;
+    background-color: lightcyan;
+    padding: 15px 90px;  
+    color: black;  
+    box-shadow: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#sendprompt{
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 15px;
+    background-color: lightcyan;
+    
+    
 }
