@@ -12,6 +12,9 @@ body {
     flex-direction: column;
     
   }
+  ::-webkit-scrollbar{
+    display: none;
+  }
   
   #mynav {
     background-color: #163020;

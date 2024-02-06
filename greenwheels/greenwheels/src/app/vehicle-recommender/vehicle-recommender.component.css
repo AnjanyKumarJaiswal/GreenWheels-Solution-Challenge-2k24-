@@ -2,23 +2,13 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    max-width: 70%;
+    max-width: 78%;
     margin:  0 auto;
     background-color: rgb(138, 156, 144); 
     padding: 20px 10px;
-    border-radius: 55px;
+    border-radius: 15px;
     box-shadow: black;
     
-}
-.chatting{
-    display: flex;
-    min-height: 85vh;
-    margin: 0 auto;
-    max-width: 60%;
-    background-color: rgb(208, 239, 229);
-    padding: 60px 215px;
-    border-radius: 45px;
-
 }
 #myhead{
     margin: 0 auto;
@@ -27,23 +17,80 @@
     font-weight: bold;
     font-size: 1cm;
 }
-#chat-container{
-    margin-top: 550px;
-    display: block;
+.chatting{
+    display: flex;
+    height: 85vh;
+    margin: 0 auto;
+    max-width: 45em;
+    background-color: rgb(208, 239, 229);
+    padding: 60px 200px;
+    border-radius: 75px;
     flex-direction: column;
+}
+.message-sana{
+    width: 40em;
+    overflow-y: scroll;
+    height: 40em;
+    margin-left: 0.5em auto;
+}
+.sana{
+    display: flex;
+    flex-direction: row;
+}
+#mysana{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
+.defaultmessage{
+    float: left;
+    background-color: rgb(49, 126, 181);
+    border-radius: 5px; 
+    box-shadow: 0 0 0.5em 0.1em #333;  
+    width: 40em;
+}
+.messagefromsana{
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: #fff;
+    font-size: 0.45cm;
+    margin-bottom: 0.31em;
+    word-wrap: break-word;
+}
+.message-timestamp{
+    font-size: 0.35cm;
+    text-align: right;
+    margin-right: 0.5em auto;
+    color: #fff;
+}
+.message-sana::-webkit-scrollbar{
+    display: none;
+}
+::-webkit-scrollbar{
+    display: none;
+    color: #fff;
+    width: 10px;
+}
+
+#chat-container{
+    margin: 0 auto;
+    display: block;
+    flex-direction: row;
     gap: auto;
-    max-width: 180%;
+    max-width: 250%;
     
 }
 #userinput{
     border-radius: 100px;
-    background-color: #304d30;
-    padding: 15px 90px;  
+    background-color: #497249;
+    padding: 14px 90px;  
     color: white;  
     box-shadow: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
+    font-weight: 200;
     font-size: 0.5cm;
+    box-shadow: 0 0 0.5em 0.1em #406b8a;
     
 }
 #userinput::placeholder{
@@ -54,10 +101,30 @@
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px 25px;
-    background-color: #304d30;
-    font-weight: bold;
+    background-color: #497249;
+    font-weight: 400;
     color: #fff;
     font-size: 0.45cm;
+    box-shadow: 0 0 0.5em 0.1em #030303;
     
     
+}
+
+#sendprompt:active{
+    transform: translateY(2px);
+}
+
+#sendprompt:hover{
+    cursor: pointer;
+    transition: ease 2ms;
+    color: black;
+}
+#user-input{
+    float: right;
+}
+
+.message-user{
+    margin-bottom: 0.3em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

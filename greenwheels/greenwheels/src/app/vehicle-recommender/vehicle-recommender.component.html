@@ -10,12 +10,27 @@
     <div class="prompt">
         <h1 id="myhead">GreenWheels Personal Assistant</h1>
         <div class="chatting">
-            <div id="chat-container">
-                <input type="text" id="userinput" placeholder="Enter Your Vehicle choice........." >
-                <button id="sendprompt">Send</button>
+            <div class="message-sana">
+                <div class="sana">
+                    <!-- <img src="./electric-vehicle.png"> -->
+                    <h1 id="mysana">Sana:</h1>
+                </div>
+                    <div class="defaultmessage">
+                        <div class="messagefromsana">Hey,There My name is Sana!</div>
+                        <div class="message-timestamp">8:00 AM</div>
+                        <p id="messagefromsana">I am Your Personal Vehicle Recommender Assistant 
+                            please enter your Vehicle choice and the features you would like to have!
+                        </p>
+                        <div class="message-timestamp">8:00 AM</div>
+                    </div>
             </div>
+            <form id="chat-container">
+                <input type="text" id="userinput" required placeholder="Enter Your Vehicle choice........." >
+                <button type="submit"  id="sendprompt">Send</button>
+            </form>
+            <!-- <button id="clear-chat">Clear-Chat</button> -->
         </div>
     </div>
-    
+    <script src="vehicle-recommmender.js"></script>
 </body>
 </html>
