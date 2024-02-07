@@ -22,8 +22,8 @@ export class AppComponent {
       if (event instanceof NavigationEnd) {
         // Logic to determine which components should show/hide the divs
         this.showGreenWheelsInfo = !event.url.includes('/vehicle-recommender') && !event.url.includes('/emission-map');
-        this.showGreenWheelsInfo = !event.url.includes('/emission-map') && !event.url.includes('/vehicle-recommender') && !event.url.includes('/emission-rate') && !event.url.includes('/Login-Sign-up-page');
-        this.showGreenWheelsInfo1 = !event.url.includes('/emission-map') && !event.url.includes('/vehicle-recommender') && !event.url.includes('/emission-rate') && !event.url.includes('/Login-Sign-up-page');
+        this.showGreenWheelsInfo = !event.url.includes('/emission-map') && !event.url.includes('/vehicle-recommender') && !event.url.includes('/emission-rate') && !event.url.includes('/Login-Sign-up-page') && !event.url.includes('/About-Devs');
+        this.showGreenWheelsInfo1 = !event.url.includes('/emission-map') && !event.url.includes('/vehicle-recommender') && !event.url.includes('/emission-rate') && !event.url.includes('/Login-Sign-up-page') && !event.url.includes('/About-Devs');
       }
     });
   }
