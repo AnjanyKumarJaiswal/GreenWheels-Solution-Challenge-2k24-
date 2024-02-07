@@ -23,7 +23,6 @@ body {
     justify-content: flex-start; 
     align-items: center; 
     width: 84.10%;
-    
   }
   
   #mynav a {
@@ -33,14 +32,13 @@ body {
   }
   
   #mynav span {
-    font-size: 1cm;
+    font-size: 1.40em;
     color: #eef0e5;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    
+    font-weight: 400;
     margin-right: 35px;
     
   }
-  
  #mynav span:first-child{
   margin-left: -10px;
  }

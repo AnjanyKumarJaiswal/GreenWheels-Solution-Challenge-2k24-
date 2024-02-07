@@ -63,6 +63,7 @@
     text-align: right;
     margin-right: 0.5em auto;
     color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .message-sana::-webkit-scrollbar{
     display: none;

@@ -1,6 +1,8 @@
 import { Routes } from '@angular/router';
 import { VehicleRecommenderComponent } from './vehicle-recommender/vehicle-recommender.component';
 import { EmissionMapComponent } from './emission-map/emission-map.component';
+import { EmissionRateComponent } from './emission-rate/emission-rate.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 
 export const routes: Routes = [
@@ -13,5 +15,15 @@ export const routes: Routes = [
         path: "emission-map" , 
         component: EmissionMapComponent,
         title: "Emission Map"
+    },
+    {
+        path:"Login-Sign-up-page",
+        component: LoginPageComponent,
+        title: "Login/Sign Up"
+    },
+    {
+        path:"emission-rate",
+        component: EmissionRateComponent,
+        title: "CO2-Rate"
     }
 ];
