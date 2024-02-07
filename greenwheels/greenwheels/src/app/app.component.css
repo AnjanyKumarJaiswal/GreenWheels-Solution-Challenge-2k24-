@@ -50,6 +50,7 @@ body {
   #mynav span:hover {
     cursor: pointer;
     color: black;
+    transition: ease 0.7s;
   }
   
   p {
@@ -67,6 +68,20 @@ body {
     min-height: 50vh;
     gap: 20px;
     flex-direction: column;
+  }
+  .greenwheelsinfo,.greenwheelsinfo1{
+    background-color: #839a83;
+    background-color: #839a83;
+    background: linear-gradient(to right, rgb(37, 131, 42) 50% , #839a83 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all .5s ease-out;
+  }
+  .greenwheelsinfo:hover, .greenwheelsinfo1:hover{
+    background-color: black;
+    color: #333;
+    box-shadow: 0 0 0.5em 0.1em #fff;
+    background-position: bottom left;
   }
   .greenwheelsinfo1 {
     display: flex;
@@ -92,24 +107,25 @@ body {
     margin-left: 0px;
     font-weight: bold;
   }
-  
   footer {
+    display: flex;
     font-size: 0.65cm;
     background-color: #163020;
     text-align: center;
     padding: 10px;
     width: 98.5%;
-    
+    flex-direction: row;
     bottom: 0;
   }
   footer b{
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
+    
   }
 
-.active{
-  color: #333;
+a:active{
+  color: black;
 }
 
 img{
@@ -118,7 +134,32 @@ img{
   margin-bottom: -200px;
   margin-left: 10px;
 }
-
+.details{
+  display: flex;
+  margin-left: 45em;
+  padding: 10px 30px;
+  gap: 3em;
+  background: linear-gradient(to right, black 50% , #163020 50%);
+  background-size: 200% 100%;
+  background-position: bottom right;
+  transition: all .5s ease-out;
+}
+.details a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  font-size: 0.45cm;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  transition: all .6s ease-out;
+}
+.details:hover{
+  background-color: black;
+  color: #fff;
+  box-shadow: 0 0 0.5em 0.1em black;
+  background-position: bottom left;
+  border-radius: 20px;
+}
   
  
   
