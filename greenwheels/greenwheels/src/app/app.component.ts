@@ -6,12 +6,13 @@ import { RouterLinkActive } from '@angular/router';
 import { Router   } from '@angular/router';
 import { NavigationEnd } from '@angular/router';
 
+
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css'],
-    imports: [CommonModule, RouterOutlet  , RouterLink , RouterLinkActive]
+    imports: [CommonModule, RouterOutlet  , RouterLink , RouterLinkActive  ]
 })
 export class AppComponent {
   title = 'GreenWheels';
