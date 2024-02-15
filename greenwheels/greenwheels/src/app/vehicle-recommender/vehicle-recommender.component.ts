@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './vehicle-recommender.component.css'
 })
 export class VehicleRecommenderComponent {
-
+  
 }
