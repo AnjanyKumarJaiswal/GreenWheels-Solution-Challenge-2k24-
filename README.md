@@ -22,7 +22,7 @@ So me and my team came up with a solution for this particular problem to solve i
 
 ![techstack](https://github.com/AnjanyKumarJaiswal/GreenWheels-Solution-Challenge-2k24-/assets/136046942/a048e28c-befd-4832-ba64-2acd1fe69149)
 
-#### <u>Tech Stack</u> 
+<h1>Tech Stack</h1> 
 ![Angularjs](https://github.com/AnjanyKumarJaiswal/Sustainable-transport-Solution-Challenge-2k24-/assets/136046942/f8c8a54d-bf27-4346-aacb-ea0201bae3fb)
  AngularJs | ![tensorflow](https://github.com/AnjanyKumarJaiswal/Sustainable-transport-Solution-Challenge-2k24-/assets/136046942/f1f3bc6e-c95c-46f2-8654-6baf39b61dba)
  Tensorflow |  ![html](https://github.com/AnjanyKumarJaiswal/Sustainable-transport-Solution-Challenge-2k24-/assets/136046942/44a5bf2b-46b6-48f7-8954-5c36c4e1564e)
