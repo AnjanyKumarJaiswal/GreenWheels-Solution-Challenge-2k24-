@@ -1,6 +1,5 @@
-![Frontpage-2](https://github.com/AnjanyKumarJaiswal/GreenWheels-Solution-Challenge-2k24-/assets/136046942/fa8e651a-bf2b-44ab-b655-43ee7aa26a39)
-# Carbon Gas Emissions harmful to our Environment
-====================================================
+
+# <u>Carbon Gas Emissions harmful to our Environment</u>
 
 
 
