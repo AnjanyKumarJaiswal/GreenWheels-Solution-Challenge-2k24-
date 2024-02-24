@@ -33,12 +33,12 @@ JavaScript
 
 
 
-#### Team Members 
+### Team Members 
 Anjany Kumar Jaiswal | Sachin Prasanth | Arnav Ghosh | Arul Kumaran P 
 
 
 
-### Screenshot of the Prototype
+<h1>Screenshot of the Prototype</h1>
 
 ![Frontpage](https://github.com/AnjanyKumarJaiswal/GreenWheels-Solution-Challenge-2k24-/assets/136046942/8ef2a060-61c9-4211-85ba-9aa74df6376e)
 
