@@ -34,7 +34,10 @@ JavaScript
 
 
 ### Team Members 
-Anjany Kumar Jaiswal | Sachin Prasanth | Arnav Ghosh | Arul Kumaran P 
+* Anjany Kumar Jaiswal
+* Sachin Prasanth
+* Arnav Ghosh
+* Arul Kumaran P 
 
 
 
