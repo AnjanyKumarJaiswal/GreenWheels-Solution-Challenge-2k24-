@@ -2,13 +2,15 @@
     <img src="https://github.com/AnjanyKumarJaiswal/GreenWheels-Solution-Challenge-2k24-/assets/136046942/50019c92-5791-49b4-8290-6bf3aa49051c" alt="logo(1)" width="400"/>
 </div>
 
+<div align="left">
+    <h1>DEMO VIDEO</h1>
+    <a href="https://www.youtube.com/watch?v=4blU1tOaNHc&ab_channel=GreenWheels"><a>YouTube Link of our product 👉:</a><img src="https://github.com/AnjanyKumarJaiswal/GreenWheels-Solution-Challenge-2k24-/assets/136046942/1c0cea4b-ce73-4f03-b679-49120a6333e9"></a>
+</div>
 
-# <div style="margin: auto 0"><u>GreenWheels</u></div>
 
-
-
-
-
+<div align = "center">
+    <h1><u>GREENWHEELS</u></h1>
+</div>
 
 
 
@@ -39,8 +41,24 @@ So me and my team came up with a solution for this particular problem to solve i
  Tensorflow |  ![html](https://github.com/AnjanyKumarJaiswal/Sustainable-transport-Solution-Challenge-2k24-/assets/136046942/44a5bf2b-46b6-48f7-8954-5c36c4e1564e)
  HTML | ![css](https://github.com/AnjanyKumarJaiswal/Sustainable-transport-Solution-Challenge-2k24-/assets/136046942/3aec33e7-81d8-4c61-867f-56419ea92fc3)
 CSS |  ![javascript](https://github.com/AnjanyKumarJaiswal/Sustainable-transport-Solution-Challenge-2k24-/assets/136046942/f8458b3b-052c-4a7f-bafb-2cca0df20afe)
-JavaScript 
+JavaScript | ![GoogleEarthEngine](https://github.com/AnjanyKumarJaiswal/GreenWheels-Solution-Challenge-2k24-/assets/136046942/0a8baa14-8383-4802-9170-373a34dbc58f)
+Earth Engine
 
+# Software Installation proccess
+<a>1.First Step to init the required dependencies: </a>
+```
+npm ls
+
+npm install <required-package-to-run-the-server> --save
+```
+<a>2.Second Step change the directory:</a>
+```
+cd greenwheels/greenwheels
+```
+<a>3.Third Step Run Servers:</a>
+```
+ng serve --open
+```
 
 
 ### Team Members 
