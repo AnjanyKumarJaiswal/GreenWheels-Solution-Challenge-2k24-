@@ -1,5 +1,6 @@
-
-![electric-vehicle](https://github.com/AnjanyKumarJaiswal/GreenWheels-Solution-Challenge-2k24-/assets/136046942/50019c92-5791-49b4-8290-6bf3aa49051c)
+<div align="center">
+    <img src="https://github.com/AnjanyKumarJaiswal/GreenWheels-Solution-Challenge-2k24-/assets/136046942/50019c92-5791-49b4-8290-6bf3aa49051c" alt="logo(1)" width="400"/>
+</div>
 
 
 # <div style="margin: auto 0"><u>GreenWheels</u></div>
