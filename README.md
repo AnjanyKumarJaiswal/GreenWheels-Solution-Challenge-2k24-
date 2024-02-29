@@ -12,10 +12,6 @@
     <h1><u>GREENWHEELS</u></h1>
 </div>
 
-![youtube-logo]()
-
-
-
 
 
 ![problem](https://github.com/AnjanyKumarJaiswal/GreenWheels-Solution-Challenge-2k24-/assets/136046942/a5d3a34b-cfd9-4801-962b-a51e9965206f)
