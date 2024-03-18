@@ -46,9 +46,8 @@ Earth Engine
 # Software Installation proccess
 <a>1.First Step to init the required dependencies: </a>
 ```
-npm ls
+npm i
 
-npm install <required-package-to-run-the-server> --save
 ```
 <a>2.Second Step change the directory:</a>
 ```
